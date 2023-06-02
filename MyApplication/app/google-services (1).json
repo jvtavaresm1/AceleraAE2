@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "16222618356",
+    "project_id": "ae-recife",
+    "storage_bucket": "ae-recife.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16222618356:android:28132e3749432128b954a1",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPV8OMEHrPquMQSI3huer0UhNO_PSu4d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

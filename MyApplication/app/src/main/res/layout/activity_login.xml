@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="212dp"
+        android:layout_height="331dp"
+        android:src="@drawable/logoae"
+
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="-32dp" />
+
+    <View
+        android:id="@+id/containercomponets"
+        style="@style/containercomponets"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+    <EditText
+        android:id="@+id/edit_usuario"
+        style="@style/edit_text"
+        android:layout_width="305dp"
+        android:layout_height="60dp"
+        android:hint="usuario"
+
+        android:inputType="text"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <EditText
+        android:id="@+id/edit_senha"
+        style="@style/edit_text"
+        android:layout_width="308dp"
+        android:layout_height="0dp"
+        android:hint="senha"
+        android:inputType="number"
+
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/button"
+        android:layout_width="299dp"
+        android:layout_height="59dp"
+        android:hint="@string/entrar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="42dp"
+        android:text="cadastre-se"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="625dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
